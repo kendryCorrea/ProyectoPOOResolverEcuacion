@@ -1,7 +1,12 @@
 public class Ecuacion {                                                                                                                                   
     private double a;
     private double b;
-    private double c;  
+    private double c;
+
+    public Ecuacion(double a, double b, double c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
 }
 public double[] resolver() {
     double discriminante = Math.pow(b, 2) - 4 * a * c;
